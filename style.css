@@ -148,6 +148,8 @@ img {
     color: rgba(250, 250, 250, 0.2)
 }
 
+/* Inicio de el Media Query */
+
 @media (max-width: 440px) {
 
     * {
@@ -155,6 +157,8 @@ img {
         padding: 0;
         box-sizing: border-box;
     }
+
+    /* Ajustes generales del HTML */
 
     body {
         height: auto;
@@ -173,6 +177,8 @@ img {
         font-size: 11px;
         font-family: 'Barlow-Semi-Condensed', Arial, Helvetica, sans-serif;
     }
+
+    /* Ajustes de los contenedores cajas y general */
 
     .box { 
         display: flex;
@@ -193,7 +199,9 @@ img {
         gap: 15px;
         box-sizing: border-box;
     }
-    
+
+    /* posicionamiento de las cajas de comentario */
+
     .comment1 {
         border-radius: 0px 0px 10px 10px;
         background-color: hsl(263, 55%, 52%); 
@@ -232,6 +240,8 @@ img {
         color: hsl(210, 46%, 95%); 
     }
     
+    /* Elementos dentro de las cajas de comentarios */
+
     quote {
         margin-top: 30px;
         color: hsla(210, 46%, 95%, 70%);
@@ -318,6 +328,11 @@ img {
     }
 
     .decoration {
-        display: none;
+        display: absolute;
+        top: -90px;
+        left: 190px;
+        height: 180px;
+        margin: 0px;
+        padding: 0px;  
     }
 }
